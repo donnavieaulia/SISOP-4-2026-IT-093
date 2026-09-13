@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.oke-gas {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/prabowo-subianto_43.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+
+  display: grid;
+
+  grid-template-rows: auto 1fr auto;
+
+  justify-items: center;
+  align-items: center;
+
+  padding-top: 0;
+  padding-bottom: 30px;
+
+  box-sizing: border-box;
+}
+
+.transparan {
+  background-color: transparent;
+  width: 90%; /* Membuat wadah melebar hampir mentok kiri-kanan (menyisakan 10% ruang kosong) */
+  border-bottom: 2px solid white; /* Membuat garis sepanjang wadah tersebut */
+  padding-bottom: 1px;
+  text-align: center;
+}
+.transparan h1 {
+  color: white;
+}
+
+.kata-kata-hari-ini {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.tombol {
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  padding: 12px 25px;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.tombol:hover {
+  background-color: white;
+  color: black;
+}
+
+.fitur {
+  display: flex;
+  gap: 20px;
+}
